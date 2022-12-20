@@ -1,0 +1,34 @@
+.parte-superior { 
+    grid-template-columns: auto;
+    width: 90%;
+    margin-top: 5%;
+    text-align: left;
+    grid-area: texto-superior; }
+.main-izq { grid-area: barra-derecha; }
+.main-der { grid-area: texto-inferior;
+            border: solid;
+            border-width: 3px;
+}
+.parte-inferior { grid-area: footer; }
+
+.grid-container 
+{
+  display: grid;
+  grid-template-areas:
+  'parte-superior parte-superior'
+  'main-izq main-der'
+  'parte-inferior parte-inferior';
+
+  grid-gap: 10px;
+  background-color: none;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}

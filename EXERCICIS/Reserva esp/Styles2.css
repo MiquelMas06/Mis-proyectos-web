@@ -1,0 +1,104 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.QR
+{
+    float: left;
+}
+h1
+{
+    color: rgb(255, 0, 0);
+    margin-left: 30%;
+    margin-right: 30%;
+}
+table
+{
+    background-color: rgb(227, 228, 228);
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-right: 30%;
+    width: 40%;
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 5px;
+}
+h1
+{
+    font-weight: 1000;
+    font-size:  160%;
+}
+h2
+{
+    font-weight: 1000;
+    font-size:  160%;
+    color: rgb(255, 0, 0);
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: 40px;
+}
+td
+{
+    padding: 10px;
+}
+
+caption
+{ 
+    font-weight: bold;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 3%;
+    text-align: left;
+    color: rgb(255, 0, 0);
+}
+hr
+{
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.dato
+{
+    font-weight: bold;
+}
+.numero
+{
+    font-weight: bold;
+    background-color: rgb(255, 249, 249);
+}
+h3
+{
+    margin-left: 30%;
+    margin-right: 30%;
+}
+p
+{
+    font-weight: bold;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.color
+{
+    background-color: white;
+    color: red;
+    font-weight: bold;
+}
+.space
+{
+    background-color: white;
+    text-align: right;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+}
+.black
+{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+}

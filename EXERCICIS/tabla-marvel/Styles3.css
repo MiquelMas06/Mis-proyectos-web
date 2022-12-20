@@ -1,0 +1,65 @@
+.grid-title
+{
+    /* background-image: url(backgroun.jpg); */
+    grid-column: 1/span 4;
+    grid-row: 1;
+    background-color: rgb(194, 194, 194);
+    font-weight: bold;
+    border: 5px outset white;
+    text-align: center;
+    margin-bottom: 10px;
+    /* color: rgb(238, 255, 0); */
+    
+}
+
+.grid-container
+{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-template-columns: auto auto auto auto;
+    text-align: center;
+    grid-row-gap: 1.5rem;
+    grid-column-gap: 1rem;
+}
+
+.casilla
+{
+    background-color: rgb(204, 204, 204);
+   
+}
+.imagen
+{
+  width: 70%;
+  margin-top: 10px;
+}
+
+.titulo{
+font-size: large;
+}
+
+.autor{
+font-size: small;
+}
+
+.button
+{
+    width: 80px;
+    text-decoration: none;
+    background-color: azure;
+    margin: 10px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right:10px;
+    margin-top: 10px;
+}
+.button:hover
+{
+    background-color: rgb(236, 6, 167);
+    color: yellow;
+}
+
+span
+{
+    display: block;
+    margin-top: 10px;
+}
